@@ -37,3 +37,7 @@ docker images
 ## Running in Docker
 docker run SRE
 
+# Output
+Enter hex value: #FFFFFF
+RGB = (255, 255, 255)
+
