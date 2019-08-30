@@ -10,6 +10,7 @@ REQUIREMENTS:
 ## Install Docker
 sudo apt-get install docker.io
 
+
 To test use some of the commands like: 
 #docker info
 ansible|akshaydube-ltm1:k8s_python_sample_code akshay.dubey$ docker info
@@ -29,6 +30,8 @@ It is attached in the repository.
 
 ## 3) Build Docker Image
 We can now build the Docker image from the instructions using this command:
+
+
 docker build -t sre .
 
 ## 4) Check the Docker Image
