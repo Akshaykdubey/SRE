@@ -1,7 +1,7 @@
 # SRE
 Simple application exposing an endpoint that takes a HEX color and returns its RGB representation. Using Python3.7 to write the code.
 
-Steps:
+# Steps:
 
 # 1) To run the application in Containerised environment. Using Docker to run it.
 
@@ -34,15 +34,21 @@ docker build -t sre .
 ## 4) Check the Docker Image
 # docker images 
 ansible|akshaydube-ltm1:sre akshay.dubey$ docker images
+
+
 REPOSITORY               TAG                 IMAGE ID            CREATED             SIZE
 sre                      latest              d22ff3f8fe6a        10 seconds ago      923MB
 
 ## 5) Running in Docker - using -ti option for interactive mode.
 ansible|akshaydube-ltm1:sre akshay.dubey$ docker run -ti sre
+
+
 Enter hex value: #FFFFFF
 RGB = (255, 255, 255)
 
 ansible|akshaydube-ltm1:sre akshay.dubey$ docker run -ti sre
+
+
 Enter hex value: #C0C0C0
 RGB = (192, 192, 192)
 
