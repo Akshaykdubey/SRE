@@ -12,6 +12,16 @@ sudo apt-get install docker.io
 
 To test use some of the commands like: 
 docker info
+ansible|akshaydube-ltm1:k8s_python_sample_code akshay.dubey$ docker info
+Client:
+ Debug Mode: false
+
+Server:
+ Containers: 18
+  Running: 0
+  Paused: 0
+  Stopped: 18
+ Images: 36
 
 ## Creating Python container image
 We will use Docker to create the image. Docker is able to automatically build images using instructions from a Docker file.
